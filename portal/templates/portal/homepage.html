@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+   body{
+  background-color:skyblue;   
+}
+            .div1{
+        margin-left:400px;
+        margin-top: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .div2{
+    margin-left:400px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .div3{
+        margin-left:400px;
+        font-family:Arial, Helvetica, sans-serif;
+    
+}
+    .btn1{
+        width:250px;
+    }
+    .btn2{
+        width:250px;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <h1>Welcome to the homepage</h1>
+        </div>
+        <br>
+        <div class="div2">
+            <h2> login or signup as a new user</h2>
+        </div>
+        <br>
+        <br>
+        <div class="div3">
+            <button class="btn1" onclick="login()">Login</button>
+            <br>
+            <br>
+            <button class="btn2" onclick="signup()">signup</button>
+
+        </div>
+        <script>
+            function login()
+            {
+                window.location.href="http://127.0.0.1:8000/login"
+            }
+            function signup()
+            {
+                window.location.href="http://127.0.0.1:8000/signup"
+            }
+            </script>
+    </body>
+</html>
